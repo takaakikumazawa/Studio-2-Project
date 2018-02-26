@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Studio2Project.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{A131FE7D-CC47-4435-9AB4-FEB3A663A4E6}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Studio2Project.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Studio2ProjectEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{AF731461-D325-4A03-AD83-4F957ED3E17E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Studio2Project">
+			<UniqueIdentifier>{20E19B38-E390-4A02-AAD2-A191E16751AA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Studio2Project\Studio2Project.Build.cs">
+			<Filter>Source\Studio2Project</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Studio2Project\Studio2Project.cpp">
+			<Filter>Source\Studio2Project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Studio2Project\Studio2Project.h">
+			<Filter>Source\Studio2Project</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Studio2Project\Studio2ProjectCharacter.cpp">
+			<Filter>Source\Studio2Project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Studio2Project\Studio2ProjectCharacter.h">
+			<Filter>Source\Studio2Project</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Studio2Project\Studio2ProjectGameMode.cpp">
+			<Filter>Source\Studio2Project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Studio2Project\Studio2ProjectGameMode.h">
+			<Filter>Source\Studio2Project</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Studio2Project\Studio2ProjectPlayerController.cpp">
+			<Filter>Source\Studio2Project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Studio2Project\Studio2ProjectPlayerController.h">
+			<Filter>Source\Studio2Project</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
